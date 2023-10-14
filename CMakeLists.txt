@@ -11,4 +11,4 @@ include_directories(include)
 
 add_executable(waybar-bluetooth_battery_parse ${SOURCE_FILES})
 
-install(TARGETS waybar-bluetooth_battery_parse DESTINATION /usr/local/bin)
+install(TARGETS waybar-bluetooth_battery_parse)
