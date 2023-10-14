@@ -78,7 +78,7 @@ int main() {
                     printf("\\n");
                 }
             }
-            printf("\"}");
+            printf("\"}\n");
         }
         fflush(stdout);
 
