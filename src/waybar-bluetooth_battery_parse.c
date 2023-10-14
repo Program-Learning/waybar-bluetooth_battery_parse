@@ -62,7 +62,7 @@ int main() {
         getConnectedBluetoothDevices(devices, &deviceCount);
 
         if (deviceCount == 0) {
-            printf("{\"text\": \"No device is connected\"}");
+            printf("{\"text\":\"NULL\", \"format-alt\": \"No device is connected\"}");
         } else {
             printf("{\"text\": \"%d device is connected\", \"class\": \"class\", \"tooltip\": \"", deviceCount);
             for (int i = 0; i < deviceCount; i++) {
