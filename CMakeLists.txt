@@ -13,5 +13,5 @@ file(GLOB SOURCE_FILES "src/*.c")
 # 生成可执行文件
 add_executable(waybar-bluetooth_battery_parse ${SOURCE_FILES})
 
-# 指定安装路径
-install(TARGETS waybar-bluetooth_battery_parse DESTINATION /usr/local/bin)
+# # 指定安装路径
+# install(TARGETS waybar-bluetooth_battery_parse DESTINATION /usr/local/bin)
